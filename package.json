@@ -1,0 +1,22 @@
+{
+  "name": "backend",
+  "version": "1.0.0",
+  "description": "Backend API conectada a MySQL en Railway",
+  "type": "module",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "dev": "node --watch src/index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.2",
+    "mysql2": "^3.6.0",
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.0",
+        "bcryptjs": "^2.4.3",
+        "jsonwebtoken": "^9.0.0"
+  }
+}
